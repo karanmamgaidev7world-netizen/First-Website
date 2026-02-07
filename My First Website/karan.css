@@ -1,0 +1,34 @@
+html{
+  /* px means "pixels". */
+  font-size: 18px;
+  /* Replace the font by the font we got from Google fonts */
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #00539f;
+}
+h1{
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  text-shadow: 7px 7px 4px green;
+}
+p, p1, li{
+  line-height: 2;   /* It increase the distance between two lines */
+  letter-spacing: 0.5px;  /* As It's name suggest it increases the letter spacing  */
+
+}
+body{
+  width: 900px;
+  margin: 0 auto;
+  background-color: gold;
+  /* Padding : TOP RIGHT BOTTOM LEFT */
+  padding: 0 20px 20px 20px;
+  border: 5px solid black; 
+}
+img{
+  display:block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+
